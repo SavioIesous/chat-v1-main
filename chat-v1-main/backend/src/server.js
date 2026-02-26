@@ -1,7 +1,8 @@
 const { WebSocketServer } = require("ws");
 const http = require("http");
 const dotenv = require("dotenv");
-
+const path = require("path");
+const express = require("express"); // Você precisará dar 'npm i
 dotenv.config();
 
 const port = process.env.PORT || 3000;
